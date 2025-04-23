@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDEDED;
+}
+
+.navbar{
+    background-color: #009EE3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .izquierda{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar .derecha{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.navbar .izquierda span{
+    margin: 1rem;
+}
+
+.navbar .derecha button{
+    border: none;
+    background-color: #33b1e9;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.tarjeta{
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+}
+
+.fila-dinero h5,h6{
+    color: grey;
+    font-weight: lighter;
+}
+
+.fila-dinero, .fila-ganancias{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
