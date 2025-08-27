@@ -13,7 +13,7 @@ boton.onclick = function () {
     console.log(datos)
 
     titulo.textContent = datos.name
-    imagen.src = datos.srpites.front_shiny
+    imagen.src = datos.sprites.front_shiny
 })
 
 }
